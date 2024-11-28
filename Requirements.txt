@@ -1,0 +1,5 @@
+# Installation
+1.Python 3.x
+2.OpenCV
+3.Mediapipe
+4.PyAutoGUI

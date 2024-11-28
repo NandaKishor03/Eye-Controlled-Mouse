@@ -1,0 +1,19 @@
+Eye-Controlled-Mouse
+This project demonstrates an eye-controlled mouse cursor using OpenCV and Mediapipe. The application leverages the power of computer vision to track eye movements and control the mouse pointer on the screen. This can be particularly useful for people with disabilities or for creating innovative human-computer interaction systems.
+
+Features
+1.Real-time head tracking using a webcam.
+2.Moves the mouse cursor based on the position of the head, using the right eye as a fixed point.
+3.Simulates mouse clicks by detecting the closure of the left eye.
+4.Utilizes Mediapipe's Face Mesh for precise facial landmark detection.
+
+Script Explanation
+1.The script captures the webcam feed using OpenCV.
+2.Mediapipe's Face Mesh solution is used to detect facial landmarks.
+3.The position of the head is determined by tracking the right eye's landmarks and mapped to the screen coordinates.
+4.PyAutoGUI is used to move the mouse cursor and simulate clicks when the left eye is closed.
+
+Acknowledgements
+1.Mediapipe for providing the Face Mesh solution.
+2.OpenCV for the powerful computer vision library.
+3.PyAutoGUI for the automation library to control the mouse and keyboard.
